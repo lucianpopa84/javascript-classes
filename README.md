@@ -68,7 +68,7 @@ MusicTopHtmlGenerator:
 
 d) Continue your previous work on Music Top app:
 
-- Create a songs array;
+- Create an empty songs array;
 - After songs fetch success call:
     - instantiate every song obtained from response data with `new HtmlSong(songData)` and push the instance in the songs array (use `forEach`).
     - create an instance of `MusicTop` called `musicTop`, using the songs array as argument
